@@ -1,0 +1,271 @@
+html{
+    font-family: 'pacifico' , cursive ;
+    font-size: 16px;
+    color: #333;
+}
+body{
+    background-color:whitesmoke;
+
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.944)) , url(../images/1920x1920_Z7C_7309-build-6.5.2022-V1.jpg);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.logo{
+    mix-blend-mode: multiply;
+    margin-top: 40px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.main-nav li{
+    margin-right: 30px;
+    
+   
+}
+.main-nav li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    transition: all 1.5s;
+    color: navajowhite;
+}
+
+
+
+
+
+
+.under-nav{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    
+        
+}
+.under-nav li{
+    margin-right: 30px;
+    
+   
+}
+.under-nav li a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.under-nav li a:hover{
+    transition: all 1.5s;
+    color: navajowhite;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: inherit;
+}
+
+.under{
+    background-color: black;
+}
+.information{
+    text-align: center;
+    margin-top: 60px;
+}
+.information ul{
+    margin-top: 60px;
+
+}
+.information a{
+    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
+    border: solid 1px rgb(67, 49, 49);
+    width: 60px;
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    box-sizing: border-box;
+    padding-block: 1em;
+
+}
+.information a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.642);
+    transition: all 1s;
+}
+.search{
+    background-color: black;
+    color: white;
+}
+.offers{
+    color: rgb(0, 0, 0);
+}
+.card:hover{
+    transform: translate(0px , -19px);
+    transition: all 1.2s;
+
+}
+.card-img-top{
+    width: 100%;
+}
+.card-title{
+    background-color: whitesmoke;
+}
+.ititle{
+    margin: auto;
+    width: 450px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.p-information{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.p-information button:hover{
+    color: white;
+    background-color: black;
+
+}
+.border{
+   width: 80px;
+   margin: 20px auto 20px; 
+    height: 3px;
+    background-color: black;
+}
+.icons{
+    
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+.footer{
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.link{
+    text-decoration: none;
+    color: brown;
+}
+h1{
+    color: rgba(237, 222, 222, 0.588);
+    text-align: center;
+    font-size: 80px;
+    font-family: 'pacifico';
+    font-weight: inherit;
+}
+.iborder{
+    width: 280px;
+    margin: 20px auto 20px; 
+     height: 3px;
+     background-color: rgba(215, 215, 215, 0.532);
+}
+h4{
+    text-align: center;
+    color: rgba(255, 228, 196, 0.537);
+    font-size: 16px;
+}
+h2{
+    font-size: 40px;
+}
+.texts{
+    margin-top: 70px;
+}
+.nav-item a:hover{
+    color: rgb(128, 128, 128);
+    font-weight: bolder;
+    
+    
+}
+.navbar-nav .nav-link.active{
+    color: antiquewhite;
+}
+.icons i:hover{
+    color: rgb(203, 6, 6);
+}
+.fa-brands{
+    color: #333;
+}
+.fa-solid{
+    color: #333;
+}
+button{
+    transition: all 1.5s;
+}
+
+@media (max-width: 575.98px) { 
+    header{
+        background-position: right center;
+    }
+    body{
+        background-position: right center;
+       
+    }
+    p{
+        background-position: right center;
+    }
+    p.ititle{
+        width: 200px;
+    }
+    .information ul{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    
+    }
+    .information ul a{
+        width: 200px;
+        margin: 0;
+
+    }
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    header{
+        background-position: right center;
+    }
+    body{
+        background-position: right center;
+    }
+    p{
+        background-position: right center;
+    }
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    header{
+        background-position: right center;
+    }
+    body{
+        background-position: right center;
+    }
+    p{
+        background-position: right center;
+    }
+
+ }
